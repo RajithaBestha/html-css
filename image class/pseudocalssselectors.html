@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pseudo class selectors</title>
+<style>
+/*pseudo class selctors*/
+h1:hover{
+    color:black;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: chocolate;
+    }
+    
+/* pseudo element selectors*/
+p::first-line{
+    color: green;
+}
+#first::first-line{
+    color: orangered;
+} 
+
+/*attribute selectors*/
+p[id]{
+color: chartreuse;
+}
+p[id="second"]{
+    color:violet;
+}
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+    <h1>this is the heading</h1>
+    <a href="http://www.google.com">google</a>
+     <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor error, numquam ut enim 
+         earum qui facere repudiandae commodi officiis perspiciatis corrupti accusantium quod eaque esse. 
+         Dicta explicabo magni, eligendi ut commodi dignissimos repudiandae optio eveniet provident a maxime.
+        Obcaecati in odio voluptas dicta aspernatur voluptate, porro officiis esse dolorem.</p>
+     <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor error, numquam ut enim 
+        earum qui facere repudiandae commodi officiis perspiciatis corrupti accusantium quod eaque esse. 
+        Dicta explicabo magni, eligendi ut commodi dignissimos repudiandae optio eveniet provident a maxime.
+           Obcaecati in odio voluptas dicta aspernatur voluptate, porro officiis esse dolorem.</p>
+     <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor error, numquam ut enim 
+        earum qui facere repudiandae commodi officiis perspiciatis corrupti accusantium quod eaque esse. 
+        Dicta explicabo magni, eligendi ut commodi dignissimos repudiandae optio eveniet provident a maxime.
+        Obcaecati in odio voluptas dicta aspernatur voluptate, porro officiis esse dolorem.</p>
+   
+
+
+</body>
+
+
+
+
+
+</html>

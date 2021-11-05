@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+ /* const arr=[1,23,3,4,3,100,3,201]
+
+for(let i=0;i<arr.length;i++)
+{
+    for(let j=i+1;j<arr.length;j++)
+    {
+        let temp=0;
+        if(arr[i]>arr[j]){
+            temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+
+        }
+
+    }
+}
+console.log(arr);
+
+function forofFun()
+{
+    const arr=[1,23,3,4,3,100,3,201]
+
+    for(let i of arr){
+        console.log(i)
+    }
+}
+*/
+/* arr.sort();
+  console.log(arr);
+  arr.sort(function(a, b){return a - b});
+
+ console.log(arr);
+ arr.sort(function(a, b){return b - a});
+ console.log(arr);*/
+
+ function objFunc(){
+
+ let empDetails = [
+                 {
+                    empName:"Rajitha",
+                    empAge: 23,
+                    empId: 214,
+                    empAddress: {
+                        houdeNo: 1 - 27,
+                        Street: "vijayanagar colony",
+                        area: "Hsr layout",
+                        city: "Banglore"
+                    },
+                    pincode: undefined,
+                   },
+            
+                {
+                    empName: "Lalitha",
+                    empAge: 20,
+                    empId: 215,
+                    empAddress: {
+                        houdeNo: 1 - 27,
+                        Street: "vijayanagar colony",
+                        area: "Hsr layout",
+                        city: "Banglore" 
+                    },
+                    pincode: undefined
+                }
+            ]
+
+            for(let i of empDetails)
+          {
+                console.log(i);
+          }
+   
+}
+  
+
+
+
+
+    </script>
+</head>
+<body>
+    <button onclick="forofFun()">forofFun</button>
+    <button onclick="objFunc()">objFun</button>
+
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object in html</title>
+    <script>
+        /*  function callFun(){
+              let empName="Rajitha"
+              let empId=214;
+              let empAge=23;
+              console.log(empName)
+              console.log(empId)
+              console.log(empAge)
+          }
+  
+          function objFun()
+          {
+              let empDetails={
+                  empName:"Rajitha",
+                  empId:214,
+                  empAge:23
+                  //key:value 
+              }
+              console.log(empDetails)
+          }*/
+        function objFunc() {
+            let empDetails = {
+                emp1: {
+                    empName:"Rajitha",
+                    empAge: 23,
+                    empId: 214,
+                    empAddress: {
+                        houdeNo: 1 - 27,
+                        Street: "vijayanagar colony",
+                        area: "Hsr layout",
+                        city: "Banglore"
+                    },
+                    pincode: undefined,
+                },
+
+
+                emp2: {
+                    empName: "Lalitha",
+                    empAge: 20,
+                    empId: 215,
+                    empAddress: {
+                        houdeNo: 1 - 27,
+                        Street: "vijayanagar colony",
+                        area: "Hsr layout",
+                        city: "Banglore" 
+                    },
+                    pincode: undefined
+                }
+            };
+
+            
+            console.log(empDetails);
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Welcome to simplify3x</h1>
+    <button onclick="callFun()">click here!</button>
+    <button onclick="objFunc()">obj func!</button>
+</body>
+
+</html>

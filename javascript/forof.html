@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        let empDetails = [
+            {
+                empName: "Rajitha",
+                empAge: 23,
+                empId: 214,
+                empAddress: {
+                    houdeNo: 1 - 27,
+                    Street: "vijayanagar colony",
+                    area: "Hsr layout",
+                    city: "Banglore"
+                },
+                pincode: undefined,
+            },
+
+            {
+                empName: "Lalitha",
+                empAge: 20,
+                empId: 215,
+                empAddress: {
+                    houdeNo: 1 - 27,
+                    Street: "vijayanagar colony",
+                    area: "Hsr layout",
+                    city: "Banglore"
+                },
+                pincode: undefined
+            }
+
+        ]
+        //forof will work for 
+ 
+        /*for(let i of empDetails){
+            console.log(i)
+        }*/
+
+        for (let ar of empDetails) {
+            for (let key in ar) {
+
+                console.log(key)
+
+                console.log(ar[key])
+            }
+        }
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+
+</body>
+
+</html>
